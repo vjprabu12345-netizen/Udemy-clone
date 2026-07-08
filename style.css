@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Gabarito', sans-serif;
+}
+.recommended{
+    padding-left:20px;
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #010000;
+    gap: 10px;
+    align-items: center;
+}
+.navbar__s1__title{
+    color:blueviolet;
+}
+.navbar__s2{
+    padding: 10px;
+    border: 1px solid #010000;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.navbar__s2>input{
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    
+}
+.navbar__s2 input:focus{
+    outline: none;
+}
+.navbar__s3{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.categories{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #010000;
+    justify-content: space-around;
+}
+.categories p{
+    background-color: #e465dd;
+    color: white;
+    padding: 10px;
+   
+    border-radius: 250px;
+
+}
+.sale-image img{
+    width: 100%;
+}
+.course-card{
+    width: 250px;
+}
+.course-card img{
+    height: 200px;
+    width:100%;
+}
+.recommended__container{
+    flex-wrap:wrap;
+    display: flex;
+   padding: 10px;
+   gap: 20px;
+   justify-content: space-around;
+   margin-top: 20px;
+}
+.topics{
+    padding:10px;
+}
+.topics__container{
+    display:flex;
+    gap:10px;
+    margin-top: 10px;
+     justify-content:space-around;
+      flex-wrap: wrap;
+}
+.topics__container p{
+     border:solid gray 2px;
+     padding:10px;
+     width: 150px;
+     display:flex;
+     flex-grow:5;
+}
+
+
+.categories p:hover, 
+.recommended p:hover{
+    background-color: rgb(156, 229, 148);
+}
+.popular{
+    padding:10px;
+}
+.popular__container{
+    display:flex;
+    gap:10px;
+   justify-content:space-around;
+   padding:20px;
+   flex-wrap:wrap;
+  
+}
+.footer{
+    padding:30px;
+ background-color: black;
+    color: aliceblue;
+}
+.footer__one{
+    display:flex;
+    gap:10px;
+}
+.footer__two{
+    margin:20px;
+    align-items: center;
+    display:flex;
+    justify-content:space-between;
+}
+.footer__one p{
+    margin: 20px;
+}
